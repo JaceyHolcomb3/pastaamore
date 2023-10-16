@@ -1,0 +1,187 @@
+@font-face{
+    font-family: goudy-old-style, serif;
+    src: url(https://fonts.adobe.com/fonts/goudy-old-style#details-section+goudy-old-style-regular);
+    font-style: normal;
+    font-weight: 400;
+}
+body{
+    padding-top: 30px;
+    background-color: rgb(216, 198, 184);
+}
+/*Navigation*/
+ul{
+    display: inline;
+    list-style-type: none;
+    margin: auto;
+    padding: 1;
+    padding-bottom: 1;
+    font-size: x-large;
+    font-family: "goudy old style bold";
+    z-index: 9999;
+    position: fixed;
+    height: 10px;
+    width: 100%;
+    text-align: right;
+    scroll-margin-top: auto;
+    padding-right: 50;
+}
+li{
+    height: 100%; 
+    padding: 30;
+}
+nav {
+    width: 100%;
+    font-family: "goudy old style bold";
+}
+header {
+    position: fixed;
+    top: 0%;
+    width: fit-content;
+    z-index: 9999;
+}
+.img-logo{
+    margin-top: auto;
+    padding-top: 0px;
+    top: 0%;
+}
+a:link{
+    color: rgb(124, 87, 63)
+}
+a:visited{
+    color:rgb(85, 50, 55)
+}
+a:focus{
+    outline: 0 green;
+}
+a:active{
+    color: rgb(124, 87, 63)
+}
+li{
+    display:inline;
+}
+li a {
+    color:rgb(85, 50, 55);
+    padding-right: 20;
+}
+li a {
+    background-color: rgb(207, 28, 68);
+}
+h1{
+    font-family: "goudy old style bold";
+    font-size: x-large;
+    color: rgb(11, 148, 70);
+    text-align: center;
+    background-color: rgb(124, 87, 63);
+    border: 5px;
+   padding: 5px;
+   margin: auto;
+   width: 30%;
+}
+p{
+    border-left-style: none;
+    font-size: large;
+    color: rgb(216, 198, 184);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(85, 50, 55);
+}
+p{
+    text-align: center;
+}
+footer{
+    font-family: "goudy-old-style-regular";
+    font-size: large;
+    color: rgb(85, 50, 55);
+    background-color: rgb(11, 148, 70);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.img-logo{
+    padding-top: 30px;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pics > div{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.chef{
+    display: flex;
+    float:left;
+}
+.text{
+    display: flex;
+    float: right;
+    padding-left: 20;
+    padding-top: 1%;
+    width: 50%;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    padding-left: 20;
+    padding-top: 1%;
+    width:fit-content;
+    font-family: "goudy-old-style-regular";
+    font-size: large;
+    color: rgb(216, 198, 184);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(85, 50, 55);
+}
+.pizza{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.history{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.home-pic{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 87, 63);
+}
+.menu-pic{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 87, 63);
+}
+.about-pic{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 87, 63);
+}
+.contact-pic{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 87, 63);
+}
+.pasta-map{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+    padding-bottom: 1;
+}
