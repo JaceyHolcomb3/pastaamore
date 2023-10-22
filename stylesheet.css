@@ -4,6 +4,9 @@
     font-style: normal;
     font-weight: 400;
 }
+a{
+    text-decoration: none;
+}
 body{
     padding-top: 30px;
     background-color: rgb(216, 198, 184);
@@ -51,10 +54,13 @@ a:visited{
     color:rgb(85, 50, 55)
 }
 a:focus{
-    outline: 0 green;
+    outline: rgb(11, 148, 70)
 }
 a:active{
-    color: rgb(124, 87, 63)
+    background-color: rgb(216, 198, 184)
+}
+a:hover{
+     background-color: rgb(124, 87, 63)
 }
 li{
     display:inline;
@@ -69,7 +75,7 @@ li a {
 h1{
     font-family: "goudy old style bold";
     font-size: x-large;
-    color: rgb(11, 148, 70);
+    color: white;
     text-align: center;
     background-color: rgb(124, 87, 63);
     border: 5px;
@@ -96,6 +102,7 @@ footer{
     margin: 20px;
     padding: 10px;
     text-align: center;
+    position: relative;
 }
 .img-logo{
     padding-top: 30px;
@@ -104,6 +111,9 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 .pics > div{
     display: flex;
@@ -124,6 +134,7 @@ footer{
     padding-left: 20;
     padding-top: 1%;
     width: 50%;
+    padding-bottom: 100;
 }
 .container{
     align-items: center;
@@ -143,6 +154,7 @@ footer{
     margin: 10px;
     padding: 10px;
     background-color: rgb(85, 50, 55);
+    width: 100%;
 }
 .pizza{
     display: flex;
@@ -158,25 +170,21 @@ footer{
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: rgb(124, 87, 63);
 }
 .menu-pic{
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: rgb(124, 87, 63);
 }
 .about-pic{
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: rgb(124, 87, 63);
 }
 .contact-pic{
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: rgb(124, 87, 63);
 }
 .pasta-map{
     text-align: center;
@@ -184,4 +192,20 @@ footer{
     justify-content: center;
     margin-bottom: 1px;
     padding-bottom: 1;
+}
+.events{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+.promotions{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+.form{
+    width: 100%;
+    height:100%;
 }
